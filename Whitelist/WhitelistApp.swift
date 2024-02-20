@@ -20,7 +20,7 @@ struct WhitelistApp: App {
         WindowGroup {
             ContentView()
                 .onAppear {
-                    if #available(iOS 16.2, *) {
+                    if #available(iOS 17.1, *) {
 #if targetEnvironment(simulator)
 #else
                         // I'm sorry 16.2 dev beta 1 users, you are a vast minority.
